@@ -16,11 +16,13 @@ public class Calculator {
 		this.secondNum = 0;
 	}
 
-	// This method will add two numbers
+
 	public Calculator(int firstNum, int secondNum) {
 		this.firstNum = firstNum;
 		this.secondNum = secondNum;
 	}
+
+	// This method will add two numbers
 	public int add(int numA, int numB){
 		result = numA + numB;
 		return result;
